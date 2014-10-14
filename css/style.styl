@@ -1,0 +1,45 @@
+@import '../bower_components/jeet/stylus/jeet'
+
+// edit(blue)
+
+mw = 900px
+bp = 900px
+pad = 3rem
+
+.head
+  center(mw)
+  padding: 2rem 0
+  @media (max-width: bp)
+    center(mw, pad)
+  .logo
+    col(1/5)
+    @media (max-width: bp)
+      stack()
+      margin-bottom: pad
+  nav
+    col(2/5, offset: 2/5)
+    @media (max-width: bp)
+      stack()
+    a
+      col(1/4 2/5)
+      text-align: center
+      overflow: hidden
+
+.jumbotron
+  center(mw, pad)
+
+.page-header
+  center(mw)
+  margin-top: 0
+  h1
+    margin-top: 0
+  @media (max-width: bp)
+    center(mw, pad)
+
+.alerts
+  center(mw)
+  margin-bottom: 3rem
+  @media (max-width: bp)
+    center(mw, pad)
+  .alert
+    col(1/2, cycle: 2)
