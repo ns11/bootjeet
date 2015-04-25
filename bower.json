@@ -1,0 +1,21 @@
+{
+  "name": "bootjeet",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ns11/bootjeet",
+  "authors": [
+    "ns11"
+  ],
+  "description": "A proper bower configed project",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "jeet": "~6.1.2"
+  }
+}
